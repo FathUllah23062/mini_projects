@@ -1,0 +1,39 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #6a856c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.search input {
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+.search input::placeholder {
+    color: rgb(201, 189, 189);
+}
+
+.search button {
+    width: 31px;
+    height: 31px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search button:hover {
+    box-shadow: 1px 1px 20px darkblue;
+}
